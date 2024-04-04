@@ -1,0 +1,58 @@
+[
+	{
+		"file": "F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\Source\\Multiplayer_CoOp\\Multiplayer_CoOp.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\.vscode\\compileCommands_Multiplayer_CoOp\\Multiplayer_CoOp.1.rsp"
+		],
+		"directory": "E:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\Source\\Multiplayer_CoOp\\Multiplayer_CoOp.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\.vscode\\compileCommands_Multiplayer_CoOp\\Multiplayer_CoOp.1.rsp"
+		],
+		"directory": "E:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\Source\\Multiplayer_CoOp\\Multiplayer_CoOp.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\.vscode\\compileCommands_Multiplayer_CoOp\\Multiplayer_CoOp.1.rsp"
+		],
+		"directory": "E:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\Source\\Multiplayer_CoOp\\Multiplayer_CoOpCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\.vscode\\compileCommands_Multiplayer_CoOp\\Multiplayer_CoOp.1.rsp"
+		],
+		"directory": "E:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\Source\\Multiplayer_CoOp\\Multiplayer_CoOpCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\.vscode\\compileCommands_Multiplayer_CoOp\\Multiplayer_CoOp.1.rsp"
+		],
+		"directory": "E:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\Source\\Multiplayer_CoOp\\Multiplayer_CoOpGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\.vscode\\compileCommands_Multiplayer_CoOp\\Multiplayer_CoOp.1.rsp"
+		],
+		"directory": "E:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\Source\\Multiplayer_CoOp\\Multiplayer_CoOpGameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\.vscode\\compileCommands_Multiplayer_CoOp\\Multiplayer_CoOp.1.rsp"
+		],
+		"directory": "E:\\UE_5.3\\Engine\\Source"
+	}
+]
