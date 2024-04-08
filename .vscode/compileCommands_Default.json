@@ -54,5 +54,21 @@
 			"@F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\.vscode\\compileCommands_Default\\Multiplayer_CoOp.1.rsp"
 		],
 		"directory": "E:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\Source\\Multiplayer_CoOp\\MyBox.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\.vscode\\compileCommands_Default\\Multiplayer_CoOp.1.rsp"
+		],
+		"directory": "E:\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\Source\\Multiplayer_CoOp\\MyBox.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\My Game Projects\\Unreal Projects\\Multiplayer_CoOp\\.vscode\\compileCommands_Default\\Multiplayer_CoOp.1.rsp"
+		],
+		"directory": "E:\\UE_5.3\\Engine\\Source"
 	}
 ]
