@@ -12,6 +12,7 @@
 #include "InputActionValue.h"
 #include "Net/UnrealNetwork.h"
 #include "Engine/StaticMeshActor.h"
+#include "Kismet/GameplayStatics.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -138,14 +139,18 @@ void AMultiplayer_CoOpCharacter::ServerRPCFunction_Implementation(int MyArg)
 #if 0
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, 
 			TEXT("Server: ServerRPCFunction_Implementation"));
-#endif
+
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green,
 			FString::Printf(TEXT("MyArg: %d"), MyArg));
+#endif
 
 		if (!SphereMesh)
 			return;
 
+		FActorSpawnParameters SpawnParameters;
+		SpawnParameters.Owner = this;
 		AStaticMeshActor* StaticMeshActor = GetWorld()->SpawnActor<AStaticMeshActor>(AStaticMeshActor::StaticClass());
+		//StaticMeshActor->SetOwner(); //Way to change owner
 		if (StaticMeshActor)
 		{
 			StaticMeshActor->SetReplicates(true);
@@ -176,4 +181,14 @@ bool AMultiplayer_CoOpCharacter::ServerRPCFunction_Validate(int MyArg)
 	}
 
 	return false;
+}
+
+void AMultiplayer_CoOpCharacter::ClientRPCFunction_Implementation()
+{
+	if (ParticleEffect)
+	{
+		FVector SpawnLocation = GetActorLocation();
+		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ParticleEffect, SpawnLocation,
+			FRotator::ZeroRotator, true, EPSCPoolMethod::AutoRelease);
+	}
 }

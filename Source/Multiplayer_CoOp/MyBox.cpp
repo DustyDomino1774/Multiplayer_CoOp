@@ -89,6 +89,8 @@ void AMyBox::DecreaseReplicatedVar()
 
 void AMyBox::MulticastRPCExplode_Implementation()
 {
+
+#if 0
 	if (HasAuthority())
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Red,
@@ -100,8 +102,9 @@ void AMyBox::MulticastRPCExplode_Implementation()
 		GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Green,
 			TEXT("Client: MulticastRPCExplode_Implementation"));
 	}
+#endif
 
-	if (!IsRunningDedicatedServer())
+	if (!IsRunningDedicatedServer() && ExplosionEffect)
 	{
 		FVector SpawnLocation = GetActorLocation() + FVector(0, 0, 100.0f);
 		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ExplosionEffect, SpawnLocation,
